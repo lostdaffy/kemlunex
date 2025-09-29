@@ -20,11 +20,14 @@ const Home = () => {
               Franchise Opportunities
             </h1>
             <p className="text-white text-sm md:text-lg mb-6 sm:mb-8 leading-relaxed mx-auto lg:mx-0 max-w-4xl">
-              Join <span className="text-[#b71540]">Kemlunex Pharma's</span> PCD
-              franchise network and grow your pharma business with monopoly
-              rights. 300+ WHO-GMP certified
-              products in General, Derma, Gynae, and Herbal segments. Start
-              today with low investment and high returns.
+              Join{" "}
+              <span className="text-[#b71540] font-bold backdrop-blur-3xl">
+                Kemlunex Pharma's
+              </span>{" "}
+              PCD franchise network and grow your pharma business with monopoly
+              rights. 300+ WHO-GMP certified products in General, Derma, Gynae,
+              and Herbal segments. Start today with low investment and high
+              returns.
             </p>
 
             {/* Key Benefits */}
@@ -187,8 +190,9 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 xl:gap-16 items-center">
             <div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 sm:mb-8">
-                Why Choose <span className="text-[#b71540]">Kemlunex?</span>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold text-gray-900 mb-6 sm:mb-8">
+                Why Choose{" "}
+                <span className="text-[#b71540]">Kemlunex Pharma?</span>
               </h2>
               <div className="space-y-6 sm:space-y-8">
                 {[
@@ -245,57 +249,62 @@ const Home = () => {
       <section className="py-12 sm:py-16 lg:py-20 xl:py-24 bg-white">
         <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 xl:gap-16 items-center">
+            {/* Image Section */}
             <div className="order-2 lg:order-1">
               <img
                 src="/images/young-doctor.jpg"
-                alt="Kemlunex Pharma Divisions"
+                alt="MedigyKem Pharma Divisions"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
             </div>
+
+            {/* Content Section */}
             <div className="order-1 lg:order-2">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Our <span className="text-[#b71540]">Divisions</span>
               </h2>
-              <p className="text-gray-800 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 lg:mb-10">
-                Kemlunex Pharma operates across multiple specialized divisions,
-                catering to diverse healthcare needs with cutting-edge solutions
-                and therapeutic excellence.
+              <p className="text-gray-800 text-sm sm:text-base leading-relaxed mb-6 sm:mb-8 lg:mb-10">
+                <strong>MedigyKem Pharma</strong> operates through specialized
+                divisions, delivering innovative healthcare solutions and
+                ensuring therapeutic excellence across diverse medical needs.
               </p>
-              <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+
+              {/* Division Cards */}
+              <div className="grid sm:grid-cols-2 gap-3 sm:gap-4 lg:gap-6">
                 {[
                   {
                     icon: "ri-capsule-line",
                     title: "General Medicine",
-                    desc: "Comprehensive range of antibiotics, analgesics, and essential medications for everyday healthcare needs.",
+                    desc: "Range of antibiotics, analgesics, and essential medicines.",
                   },
                   {
                     icon: "ri-heart-pulse-line",
                     title: "Dermatology",
-                    desc: "Advanced dermatological solutions for skin conditions, cosmetic care, and therapeutic treatments.",
+                    desc: "Solutions for skin health, cosmetic care, and treatments.",
                   },
                   {
                     icon: "ri-women-line",
                     title: "Gynecology",
-                    desc: "Specialized formulations for women's health, reproductive care, and maternal wellness solutions.",
+                    desc: "Formulations for women’s health, reproductive care, and wellness.",
                   },
                   {
                     icon: "ri-leaf-line",
                     title: "Herbal & Nutraceuticals",
-                    desc: "Natural herbal remedies and nutritional supplements for holistic health and wellness.",
+                    desc: "Herbal remedies and nutritional supplements for well-being.",
                   },
                 ].map((division, index) => (
                   <div
                     key={index}
-                    className="bg-gray-50 p-4 sm:p-6 rounded-lg hover:shadow-md transition-shadow duration-300"
+                    className="bg-gray-50 p-3 sm:p-4 rounded-md hover:shadow transition-shadow duration-300"
                   >
                     <i
-                      className={`${division.icon} text-2xl sm:text-3xl mb-3 block`}
+                      className={`${division.icon} text-xl sm:text-2xl mb-2 block`}
                       style={{ color: "#b71540" }}
                     ></i>
-                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
+                    <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-1">
                       {division.title}
                     </h3>
-                    <p className="text-sm sm:text-base text-gray-700">
+                    <p className="text-xs sm:text-sm text-gray-700 leading-snug">
                       {division.desc}
                     </p>
                   </div>
@@ -376,21 +385,18 @@ const Home = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
             {[
               {
-                image: "/images/testimonial-1.jpg",
                 name: "Dr. Rajesh Kumar",
                 role: "Medical Practitioner",
                 testimonial:
                   "Kemlunex Pharma has been our trusted partner for years. Their products are consistently reliable, and the quality never disappoints. The WHO-GMP certification gives us complete confidence in prescribing their medications.",
               },
               {
-                image: "/images/testimonial-2.jpg",
                 name: "Priya Sharma",
                 role: "PCD Franchise Partner",
                 testimonial:
                   "The franchise support from Kemlunex is exceptional. From marketing materials to timely deliveries, they provide everything needed to run a successful pharmaceutical business. Highly recommended for serious entrepreneurs.",
               },
               {
-                image: "/images/testimonial-3.jpg",
                 name: "Amit Gupta",
                 role: "Distributor",
                 testimonial:
@@ -402,11 +408,7 @@ const Home = () => {
                 className="bg-gray-50 p-6 sm:p-8 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300"
               >
                 <div className="flex items-center mb-4 sm:mb-6">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="w-12 h-12 sm:w-16 sm:h-16 rounded-full object-cover mr-3 sm:mr-4"
-                  />
+                  
                   <div>
                     <h4 className="text-lg sm:text-xl font-semibold text-gray-900">
                       {testimonial.name}

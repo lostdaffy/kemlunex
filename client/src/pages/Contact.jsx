@@ -172,10 +172,10 @@ const Contact = () => {
                     </h4>
                     <div className="space-y-2">
                       <Link
-                        to="tel:+919888086762"
+                        to="tel:+919988086762"
                         className="block text-[#b71540] hover:text-[#a01439] transition-colors duration-300 font-medium text-sm sm:text-base"
                       >
-                        +91 98880 86762
+                        +91 99880 86762
                       </Link>
                     </div>
                   </div>
@@ -206,7 +206,7 @@ const Contact = () => {
 
                   {/* Instagram */}
                   <Link
-                    to="#"
+                    to="https://www.instagram.com/kemlunex_pharma?igsh=cnpwenE1aWZkdTQ2"
                     className="bg-white/10 hover:bg-white/20 rounded-lg p-3 sm:p-4 text-center transition-all duration-300 hover:scale-105 group"
                   >
                     <i className="ri-instagram-line text-2xl sm:text-3xl text-white group-hover:text-[#b71540] transition-colors duration-300 mb-1 sm:mb-2"></i>
@@ -218,7 +218,7 @@ const Contact = () => {
                 {/* WhatsApp Business */}
                 <div className="mt-4 sm:mt-6 ">
                   <Link
-                    to="https://wa.me/919888086762"
+                    to="https://wa.me/"
                     className="w-full bg-[#b71540] hover:bg-[#a01439] rounded-lg p-3 sm:p-4 flex items-center justify-center space-x-2 sm:space-x-3 transition-all duration-300 hover:scale-105"
                   >
                     <i className="ri-whatsapp-line text-xl sm:text-2xl text-white"></i>

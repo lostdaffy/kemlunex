@@ -6,8 +6,6 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#e7e4e3]  relative overflow-hidden">
-      
-
       <div className="container mx-auto px-4 sm:px-6 md:px-10 xl:px-20 py-12 md:py-16 relative z-10">
         {/* Main Footer Content */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
@@ -15,13 +13,16 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-8">
             <Link
               to="/"
-              className="inline-flex items-center space-x-4 group hover:scale-105 transition-transform duration-300"
+              className="inline-flex items-center space-x-1 group hover:scale-105 transition-transform duration-300"
             >
               <img
                 src="/images/logo.jpeg"
-                className="w-16 sm:w-20 md:w-40"
-                alt="MedigyKem Logo"
-              />
+                className="w-32 sm:w-32 lg:w-32 rounded-lg"
+                alt="Company Logo"
+              />{" "}
+              <span className="text-2xl pt-4 text-[#4355ac] font-semibold">
+                Pharma
+              </span>
             </Link>
 
             <div className="space-y-4 pl-1">
@@ -34,7 +35,7 @@ const Footer = () => {
               </div>
               <div className="text-gray-900 text-base leading-relaxed max-w-md">
                 <i className="ri-map-pin-2-line text-[#b71540] mr-2"></i>
-                SCO-747/1 Half Portion Second Floor
+                SCO-747/1 Second Floor
                 <br />
                 Dehra Sahib, Manimajra
                 <br />
@@ -121,7 +122,7 @@ const Footer = () => {
                 <div>
                   <div className="text-xs text-gray-900 mb-2">Call Us</div>
                   <div className="space-y-1">
-                    {["+91 98880 86762"].map((phone, index) => (
+                    {["+91 99880 86762"].map((phone, index) => (
                       <div key={index}>
                         <a
                           href={`tel:${phone.replace(/\s/g, "")}`}
@@ -142,13 +143,13 @@ const Footer = () => {
                   {[
                     {
                       icon: "ri-instagram-line",
-                      url: "https://instagram.com/",
+                      url: "https://www.instagram.com/kemlunex_pharma?igsh=cnpwenE1aWZkdTQ2",
                     },
                     {
                       icon: "ri-facebook-circle-line",
                       url: "https://facebook.com/",
                     },
-                    { icon: "ri-youtube-line", url: "https://youtube.com/" },
+                    
                   ].map((social, index) => (
                     <a
                       key={index}

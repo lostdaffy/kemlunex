@@ -12,13 +12,10 @@ const GetInTouch = () => {
               Get in Touch
             </h2>
             <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-              Ready to Partner with
-              <span className="text-gray-200"> Kemlunex Pharma?</span>
+              Ready to Partner
             </h3>
             <p className="text-gray-200 text-sm sm:text-base md:text-lg max-w-2xl mx-auto">
-              Contact our team today for PCD Pharma Franchise opportunities,
-              Third Party Manufacturing services, or any business inquiries.
-              We're here to support your pharmaceutical business growth.
+              Contact our team today for PCD Pharma Franchise opportunities.
             </p>
           </div>
 
@@ -119,7 +116,7 @@ const GetInTouch = () => {
                       Phone Numbers
                     </h4>
                     <p className="text-gray-200 text-sm sm:text-base">
-                      +91 98880 86762
+                      +91 99880 86762
                     </p>
                   </div>
                 </div>

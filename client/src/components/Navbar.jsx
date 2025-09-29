@@ -14,14 +14,15 @@ export default function Navbar() {
 
   return (
     <nav className="fixed w-full z-50 bg-[#e7e4e3] top-0 left-0">
-      <div className="container flex items-center justify-between h-16 sm:h-25 mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container flex items-center justify-between h-16 sm:h-20 mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <div className="flex items-center">
+        <div className="flex items-center gap-1">
           <img
             src="/images/logo.jpeg"
-            className="w-32 sm:w-40 lg:w-45 rounded-lg"
+            className="w-32 sm:w-32 lg:w-32 rounded-lg"
             alt="Company Logo"
-          />
+          />{" "}
+          <span className="text-2xl pt-4 text-[#4355ac] font-semibold">Pharma</span>
         </div>
 
         {/* Desktop Navigation */}
@@ -41,7 +42,7 @@ export default function Navbar() {
         {/* Call Button - Desktop */}
         <div className="hidden lg:flex items-center">
           <Link
-            to="tel:+919888086762"
+            to="tel:+919988086762"
             className="group bg-[#b71540] px-6 xl:px-10 py-2.5 xl:py-3 text-white text-sm xl:text-base rounded-full hover:bg-[#9c1232] transition-all duration-300 flex items-center"
           >
             <i className="ri-phone-fill mr-2"></i> Contact Us

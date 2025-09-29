@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       {/* Hero Section */}
-      <HeroSection title="About " sub="Kemlunex" />
+      <HeroSection title="About " sub="Kemlunex Pharma" />
 
       {/* Our Story Section */}
       <section className="min-h-screen flex items-center justify-center bg-white py-12 md:py-16 lg:py-20">
