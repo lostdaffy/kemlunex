@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed w-full z-50 bg-[#e7e4e3] top-0 left-0">
-      <div className="container flex items-center justify-between h-16 sm:h-20 mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl flex items-center justify-between h-16 sm:h-20 mx-auto px-4 sm:px-6 lg:px-20">
         {/* Logo */}
         <div className="flex items-center gap-1">
           <img

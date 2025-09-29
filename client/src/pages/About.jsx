@@ -9,7 +9,7 @@ const About = () => {
 
       {/* Our Story Section */}
       <section className="min-h-screen flex items-center justify-center bg-white py-12 md:py-16 lg:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex items-center min-h-screen">
+        <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex items-center min-h-screen">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center w-full">
             <div className="order-2 lg:order-1">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 md:mb-6">
@@ -42,9 +42,35 @@ const About = () => {
         </div>
       </section>
 
+      {/* Owner Section */}
+      <section className="pb-20 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-10 xl:px-20">
+          <div className="max-w-4xl mx-auto text-center">
+            {/* Owner Name */}
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#1A3A7C] mb-2 sm:mb-4">
+              Mr. Aman
+            </h2>
+            <p className="text-lg sm:text-xl md:text-2xl font-semibold text-[#b71540] mb-8 sm:mb-10 md:mb-12">
+              Managing Director
+            </p>
+
+            {/* Message */}
+            <div className="bg-gradient-to-r from-[#1A3A7C]/5 to-[#7CC241]/5 rounded-xl sm:rounded-2xl p-6 sm:p-8 md:p-10 lg:p-12">
+              <p className="text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed font-medium">
+                "With visionary leadership and pharmaceutical expertise, we are
+                committed to delivering exceptional healthcare solutions through
+                our PCD franchise and third-party manufacturing services.
+                Excellence in pharmaceuticals is not just our goal, it's our
+                commitment to every life we touch."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Our Foundation (Mission, Vision) */}
       <section className="min-h-screen flex items-center justify-center bg-gray-50 py-12 md:py-16 lg:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex items-center min-h-screen">
+        <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex items-center min-h-screen">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center w-full">
             <div className="order-2 lg:order-1">
               <img
@@ -104,7 +130,7 @@ const About = () => {
 
       {/* Managing Director */}
       <section className="min-h-screen flex items-center justify-center bg-white py-12 md:py-16 lg:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex items-center min-h-screen">
+        <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex items-center min-h-screen">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center w-full">
             <div className="order-2 lg:order-1">
               <span className="text-[#b71540] text-base sm:text-lg font-semibold">
@@ -151,7 +177,7 @@ const About = () => {
 
       {/* Certifications & Compliance */}
       <section className="min-h-screen flex items-center justify-center bg-gray-50 py-12 md:py-16 lg:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex items-center min-h-screen">
+        <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex items-center min-h-screen">
           <div className="w-full">
             <div className="text-center mb-12 md:mb-16">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 md:mb-6">
@@ -225,7 +251,7 @@ const About = () => {
 
       {/* Manufacturing Excellence */}
       <section className="min-h-screen flex items-center justify-center bg-white py-12 md:py-16 lg:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex items-center min-h-screen">
+        <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex items-center min-h-screen">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center w-full">
             <div className="order-2 lg:order-1">
               <span className="text-[#b71540] text-base sm:text-lg font-semibold">
