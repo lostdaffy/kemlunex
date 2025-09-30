@@ -218,7 +218,7 @@ const Contact = () => {
                 {/* WhatsApp Business */}
                 <div className="mt-4 sm:mt-6 ">
                   <Link
-                    to="https://wa.me/"
+                    to="https://wa.me/919988086762"
                     className="w-full bg-[#b71540] hover:bg-[#a01439] rounded-lg p-3 sm:p-4 flex items-center justify-center space-x-2 sm:space-x-3 transition-all duration-300 hover:scale-105"
                   >
                     <i className="ri-whatsapp-line text-xl sm:text-2xl text-white"></i>
